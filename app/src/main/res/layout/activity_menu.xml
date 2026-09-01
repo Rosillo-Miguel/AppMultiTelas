@@ -10,9 +10,9 @@
     <Button
         android:id="@+id/bttAppMedia"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="260dp"
-        android:text="Aplicativo Média"
+        android:text="@string/texto_aplicativo_media"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,12 +21,23 @@
     <Button
         android:id="@+id/bttAppImc"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="Aplicativo IMC"
+        android:layout_height="48dp"
+        android:text="@string/texto_aplicativo_imc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bttAppMedia"
         app:layout_constraintVertical_bias="0.307" />
+
+    <Button
+        android:id="@+id/bttSair"
+        android:layout_width="320dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/texto_button_sair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

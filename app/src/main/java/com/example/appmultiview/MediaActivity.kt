@@ -1,5 +1,6 @@
 package com.example.appmultiview
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -95,6 +96,8 @@ class MediaActivity : AppCompatActivity() {
     }
 
     private fun sair(){
-        finishAndRemoveTask()
+        val telaMenu = Intent(this, MenuActivity::class.java)
+        startActivity(telaMenu)
+        finish()
     }
 }

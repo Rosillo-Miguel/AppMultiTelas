@@ -42,7 +42,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun auth(usuario: String, senha: String){
-        if (usuario == "admin" && senha == "admin123"){
+        if (usuario == "ad" && senha == "ad"){
             login()
         } else {
             Toast.makeText(this, "Usuario ou senha incorretos, tente novamente",

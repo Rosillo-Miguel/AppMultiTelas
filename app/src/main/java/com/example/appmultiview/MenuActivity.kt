@@ -13,7 +13,7 @@ class MenuActivity : AppCompatActivity() {
 
     private lateinit var bttAppMedia : Button
     private lateinit var bttAppImc : Button
-
+    private lateinit var bttSair : Button
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,6 +22,7 @@ class MenuActivity : AppCompatActivity() {
 
         bttAppMedia = findViewById(R.id.bttAppMedia)
         bttAppImc = findViewById(R.id.bttAppImc)
+        bttSair = findViewById(R.id.bttSair)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -39,6 +40,10 @@ class MenuActivity : AppCompatActivity() {
             val telaMedia = Intent(this, MediaActivity::class.java)
             startActivity(telaMedia)
             finish()
+        }
+
+        bttSair.setOnClickListener {
+            finishAndRemoveTask()
         }
     }
 }

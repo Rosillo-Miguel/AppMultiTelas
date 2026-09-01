@@ -14,7 +14,7 @@
       android:layout_height="81dp"
       android:gravity="center"
       android:lineSpacingExtra="8sp"
-      android:text="Média Final"
+      android:text="@string/texto_media_final"
       android:textAppearance="@style/TextAppearance.AppCompat.Display1"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +28,7 @@
       android:layout_marginEnd="16dp"
       android:layout_marginBottom="552dp"
       android:gravity="center"
-      android:text="Nota 1:"
+      android:text="@string/texto_nota_1"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,8 @@
       app:layout_constraintHorizontal_bias="0.809"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="@+id/textView2"
-      app:layout_constraintVertical_bias="0.0" />
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="HardcodedText" />
 
   <TextView
       android:id="@+id/textView3"
@@ -57,7 +58,7 @@
       android:layout_height="44dp"
       android:layout_marginTop="28dp"
       android:gravity="center"
-      android:text="Nota 2:"
+      android:text="@string/texto_nota_2"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="@+id/textView2"
@@ -79,14 +80,15 @@
       app:layout_constraintHorizontal_bias="0.725"
       app:layout_constraintStart_toStartOf="@+id/txtNota1"
       app:layout_constraintTop_toTopOf="@+id/textView3"
-      app:layout_constraintVertical_bias="0.0" />
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="HardcodedText" />
 
   <TextView
       android:id="@+id/textView4"
       android:layout_width="70dp"
       android:layout_height="44dp"
       android:gravity="center"
-      android:text="Faltas: "
+      android:text="@string/texto_faltas"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="@+id/textView3"
@@ -108,7 +110,8 @@
       app:layout_constraintHorizontal_bias="0.725"
       app:layout_constraintStart_toStartOf="@+id/txtNota2"
       app:layout_constraintTop_toTopOf="@+id/textView4"
-      app:layout_constraintVertical_bias="0.0" />
+      app:layout_constraintVertical_bias="0.0"
+      tools:ignore="HardcodedText"/>
 
   <TextView
       android:id="@+id/lbNota"
@@ -116,7 +119,7 @@
       android:layout_height="39dp"
       android:layout_gravity="center"
       android:layout_marginTop="64dp"
-      android:text="Nota Final:"
+      android:text="@string/texto_nota_final"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.106"
@@ -144,7 +147,7 @@
       android:layout_height="35dp"
       android:layout_gravity="start"
       android:layout_marginTop="24dp"
-      android:text="Situação: "
+      android:text="@string/texto_situacao"
       android:textAlignment="textStart"
       android:textStyle="bold"
       app:layout_constraintStart_toStartOf="@+id/lbNota"
@@ -168,7 +171,7 @@
       android:id="@+id/bttCalcular"
       android:layout_width="374dp"
       android:layout_height="54dp"
-      android:text="Calcular"
+      android:text="@string/texto_button_calcular"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.513"
@@ -181,7 +184,7 @@
       android:layout_width="0dp"
       android:layout_height="54dp"
       android:layout_marginTop="12dp"
-      android:text="Limpar"
+      android:text="@string/texto_button_limpar"
       app:layout_constraintEnd_toEndOf="@+id/bttCalcular"
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="@+id/bttCalcular"
@@ -192,7 +195,7 @@
       android:layout_width="0dp"
       android:layout_height="54dp"
       android:layout_marginBottom="8dp"
-      android:text="Sair"
+      android:text="@string/texto_button_sair"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="@+id/bttLimpar"
       app:layout_constraintHorizontal_bias="1.0"

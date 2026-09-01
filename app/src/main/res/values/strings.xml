@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">AppMultiView</string>
+    <string name="texto_calculo_de_imc">Calculo de IMC</string>
+    <string name="texto_peso">Peso:</string>
+    <string name="texto_insira_o_seu_peso">Insira o seu peso em Kg</string>
+    <string name="texto_altura">Altura:</string>
+    <string name="texto_insira_a_sua_altura">Insira a sua altura em cm</string>
+    <string name="texto_imc">IMC:</string>
+    <string name="texto_categoria">Categoria:</string>
+    <string name="texto_calcular">Calcular</string>
+    <string name="texto_button_sair">Sair</string>
+    <string name="texto_button_limpar">Limpar</string>
+    <string name="texto_button_calcular">Calcular</string>
+    <string name="texto_situacao">Situação:</string>
+    <string name="texto_nota_final">Nota Final:</string>
+    <string name="texto_faltas">Faltas:</string>
+    <string name="texto_nota_2">Nota 2:</string>
+    <string name="texto_nota_1">Nota 1:</string>
+    <string name="texto_media_final">Média Final</string>
+    <string name="texto_aplicativo_imc">Aplicativo IMC</string>
+    <string name="texto_aplicativo_media">Aplicativo Média</string>
+    <string name="texto_hint_senha">Senha: ad</string>
+    <string name="texto_senha">Senha:</string>
+    <string name="texto_hint_login">Login: ad</string>
+    <string name="texto_usuario">Usuario:</string>
+    <string name="texto_button_login">Login</string>
+
 </resources>
